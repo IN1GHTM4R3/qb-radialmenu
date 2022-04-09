@@ -294,6 +294,14 @@ Config.MenuItems = {
             }
         }
     },
+    [3] = {
+        id = 'vehiclemenu',
+        title = 'Car Control',
+        icon = 'bars',
+        type = 'client',
+        event = 'ccvehmenu:client:openMenu',
+        shouldClose = true
+    },
 }
 
 Config.VehicleDoors = {
